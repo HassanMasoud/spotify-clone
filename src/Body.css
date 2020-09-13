@@ -5,6 +5,7 @@
   padding: 30px;
   background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
   background-color: rgb(91, 87, 115);
+  overflow-y: overlay;
 }
 
 .body::-webkit-scrollbar {
