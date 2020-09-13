@@ -24,19 +24,19 @@ function Footer() {
         </div>
       </div>
       <div className="footer__center">
-        <ShuffleIcon className="footer__green" />
+        <ShuffleIcon className="footer__icon footer__green" />
         <SkipPreviousIcon className="footer__icon" />
         <PlayCircleOutlineIcon className="footer__icon" fontSize="large" />
         <SkipNextIcon className="footer__icon" />
-        <RepeatIcon className="footer__green" />
+        <RepeatIcon className="footer__icon footer__green" />
       </div>
       <div className="footer__right">
         <Grid container spacing={2}>
           <Grid item>
-            <PlaylistPlayIcon />
+            <PlaylistPlayIcon className="footer__icon" />
           </Grid>
           <Grid item>
-            <VolumeDownIcon />
+            <VolumeDownIcon className="footer__icon" />
           </Grid>
           <Grid item xs>
             <Slider />

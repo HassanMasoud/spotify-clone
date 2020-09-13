@@ -11,6 +11,14 @@
   padding: 20px;
 }
 
+.footer__icon {
+  color: grey;
+}
+
+.footer__green {
+  color: #1ed15e;
+}
+
 .footer__left {
   flex: 0.3;
   display: flex;
@@ -48,5 +56,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: white;
+}
+
+.footer__right * .MuiSlider-root {
+  color: #1ed15e;
+}
+
+.footer__icon:hover {
+  transform: scale(1.2) !important;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
   color: white;
 }
